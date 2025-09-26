@@ -56,9 +56,9 @@ export const NAV_LINKS = [
     link: null,
   },
   {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    id: "github",
+    title: "GitHub",
+    link: "https://github.com/just-Anup?tab=repositories",
   },
 ] as const;
 
@@ -73,7 +73,7 @@ export const SERVICES = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Designer",
     icon: backend,
   },
   {
@@ -121,7 +121,7 @@ export const TECHNOLOGIES = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "React Native",
     icon: threejs,
   },
   {
@@ -133,7 +133,7 @@ export const TECHNOLOGIES = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Next JS",
     icon: docker,
   },
 ] as const;
@@ -141,96 +141,68 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web Developer",
+    company_name: "Techicynics",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Create a Ecommerce website for Nagalinks. This website is for selling naga artisen products online all over Nagaland district.",
+      "Create a Protforlio website for Netherland client who is a architect and interior designer.",
+      "Create a tourism website for Techicynics . This website is for promoting tourism in Nagaland.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "Techicynics",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design & Create an App for Autocion PVT LTD. This app is for booking mechanic from your phone to your door step",
+
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ] as const;
 
 // Testimonials
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: user1,
+      "Working with Anup has been a pleasure. He has a strong grasp of modern development practices and always shows initiative in solving problems efficiently. His ability to learn quickly and collaborate with the team made our projects smoother and more successful. I could always rely on him to deliver quality work on time.",
+    name: "Bipothung M Humsoe",
+    designation: "Cheif Developer",
+    company: "Techicynics",
+  
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: user2,
+      "I approached Techicynics to build my e-commerce website, and the result exceeded my expectations. He designed a user-friendly, responsive platform that has helped me attract more customers and boost sales. I highly recommend his services to anyone looking for reliable web development.",
+    name: "Alozo Sumi",
+    designation: "Founder",
+    company: "Nagalinks",
+
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: user3,
+      "I needed a personal portfolio website to showcase my work, and Anup delivered exactly what I envisioned. The design is clean, modern, and perfectly highlights my skills. He listened carefully to my requirements, suggested great improvements, and ensured the site was completed on time. I’m extremely satisfied with his work",
+    name: "walling",
+    designation: "Architect & Interior Designer",
+    company: "Studio Walling",
+
   },
 ] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Autocion App",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "App that allows users to book mechanic from your phone to your door step.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
@@ -243,16 +215,15 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/just-Anup?tab=repositories",
   },
   {
-    name: "Golds Gym",
+    name: "Grap a Coffee",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "A responsive app use for ordering coffee on your table in your favourite cafe.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
@@ -265,13 +236,12 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    source_code_link: "https://github.com/just-Anup?tab=repositories",
   },
   {
-    name: "Shoppy",
+    name: "Nagalinks E-commerce",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "A responsive e-commerce web application that allows users to buy authentic Naga handloom products online at reasonable prices.",
     tags: [
       {
         name: "react",
@@ -287,13 +257,12 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    source_code_link: "https://github.com/just-Anup?tab=repositories",
   },
   {
-    name: "TikTok Clone",
+    name: "Studio walling",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "A responsive portfolio website that showcases the work of an architect and interior designer, highlighting their projects and services.",
     tags: [
       {
         name: "nextjs",
@@ -309,16 +278,16 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    source_code_link: "https://github.com/just-Anup?tab=repositories",
+
   },
   {
-    name: "Cryptoverse",
+    name: "Digi pay",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "A digital payment app that allows users to send and receive money instantly, pay bills, and manage their finances securely from their mobile devices.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
@@ -331,16 +300,15 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "https://github.com/just-Anup?tab=repositories",
   },
   {
-    name: "Travel Advisor",
+    name: "pikalo",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "A online movie booking app that allows users to book movie tickets, view showtimes, and explore nearby theaters with ease.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
@@ -353,8 +321,7 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "https://github.com/just-Anup?tab=repositories",
   },
 ] as const;
 
@@ -362,7 +329,7 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "",
   },
   {
     name: "Linkedin",
@@ -372,11 +339,11 @@ export const SOCIALS = [
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/just-Anup?tab=repositories",
   },
 ] as const;
