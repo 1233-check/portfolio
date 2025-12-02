@@ -48,7 +48,18 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             />
             <span className="sr-only">Light bulb</span>
           </span>
-         
+          <span>
+            Did you enjoy this portfolio? For More Update Contact:{" "}
+            <Link
+              to="https://wa.link/utbheb"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline font-medium text-blue-600 underline underline-offset-2 decoration-600 hover:no-underline"
+            >
+              Contact
+            </Link>
+            .
+          </span>
         </p>
       </div>
       <div className="flex items-center">
