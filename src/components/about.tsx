@@ -55,7 +55,12 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-           Web Developer & Web Designer with strong expertise in building responsive websites, intuitive UI/UX designs, and modern web applications. Skilled in turning ideas into functional, visually engaging digital solutions. Proficient in front-end technologies, web design tools, and cross-platform development. Passionate about delivering seamless user experiences through clean code and creative design.
+          <div className="font-bold  text-2xl mb-2">
+           "From Abstract Idea to Autonomous Reality." <br className="sm:block hidden" />
+</div>
+In a digital world cluttered with templates, I build tailored solutions. I combine the artistic eye of a Web Designer with the logic of an AI Engineer. My process is simple yet powerful: I take your raw concept, wrap it in a seamless, modern user experience, and power it with AI workflows that drive real business results.
+
+The Result: Clean code, captivating design, and systems that work while you sleep.
         </motion.p>
 
         {/* Service Card */}

@@ -23,11 +23,10 @@ export const Hero = () => {
         {/* About Me */}
         <div>
           <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Anup</span>
+            Hi, I'm <span className="text-[#915eff]">Teju Giri</span>
           </h1>
-          <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop Web Developer & Web designer <br className="sm:block hidden" />
-       Skilled in turning ideas into functional.
+          <p className={cn(styles.heroSubText, "mt-1.5 text-white-100")}>
+            I am a Web Developer, Web designer & Ai Agents and Ai workflow for Businesses.  
           </p>
         </div>
       </div>

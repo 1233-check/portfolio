@@ -29,6 +29,10 @@ import {
   project4,
   project5,
   project6,
+  project7,
+  project8,
+  project9,
+  project10,
   user1,
   user2,
   user3,
@@ -36,6 +40,7 @@ import {
   linkedin,
   twitter,
   github,
+  whatapp1,
 } from "../assets";
 
 // Navbar Links
@@ -47,8 +52,8 @@ export const NAV_LINKS = [
   },
   {
     id: "work",
-    title: "Work",
-    link: null,
+    title: "WhatsApp",
+    link: "https://wa.link/utbheb",
   },
   {
     id: "contact",
@@ -69,7 +74,7 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Agent For Businesses ",
     icon: mobile,
   },
   {
@@ -77,7 +82,7 @@ export const SERVICES = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ai Workflow ",
     icon: creator,
   },
 ] as const;
@@ -170,7 +175,7 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "Working with Anup has been a pleasure. He has a strong grasp of modern development practices and always shows initiative in solving problems efficiently. His ability to learn quickly and collaborate with the team made our projects smoother and more successful. I could always rely on him to deliver quality work on time.",
+      "Working with Teju  has been a pleasure. He has a strong grasp of modern development practices and always shows initiative in solving problems efficiently. His ability to learn quickly and collaborate with the team made our projects smoother and more successful. I could always rely on him to deliver quality work on time.",
     name: "Bipothung M Humsoe",
     designation: "Cheif Developer",
     company: "Techicynics",
@@ -197,12 +202,12 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Autocion App",
+    name: "Quickflow",
     description:
-      "App that allows users to book mechanic from your phone to your door step.",
+      "Quickflow is an open-source Notion-style workspace built with Next.js, Convex, Clerk, and TailwindCSS. It allows users to create, edit, and collaborate on documents in real time with a clean and minimal interface.",
     tags: [
       {
-        name: "react native",
+        name: "Next.js, Convex, Clerk, and TailwindCSS.",
         color: "blue-text-gradient",
       },
       {
@@ -215,12 +220,13 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/just-Anup?tab=repositories",
+    live_site_link: "https://quickflow.vercel.app",
+    source_code_link: "https://quickflow.vercel.app",
   },
   {
-    name: "Grap a Coffee",
+    name: "ProfilePress",
     description:
-      "A responsive app use for ordering coffee on your table in your favourite cafe.",
+      "ProfilePress is a LinkedIn-to-portfolio generator that allows users to transform their professional profiles into sleek personal websites. It features customizable templates, one-click Vercel deploy, and editable sections for bio, projects, and skills.",
     tags: [
       {
         name: "react native",
@@ -235,16 +241,17 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://github.com/just-Anup?tab=repositories",
+    image:project2 ,
+    live_site_link: "https://profilepress.vercel.app",
+    source_code_link: "https://profilepress.vercel.app",
   },
   {
-    name: "Nagalinks E-commerce",
+    name: "Blockify",
     description:
-      "A responsive e-commerce web application that allows users to buy authentic Naga handloom products online at reasonable prices.",
+      "Blockify is a minimalist portfolio and blog builder powered by Next.js and Vercel. It enables users to build visually appealing sites with content blocks and smooth UI transitions",
     tags: [
       {
-        name: "react",
+        name: "Blockify",
         color: "blue-text-gradient",
       },
       {
@@ -257,15 +264,17 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/just-Anup?tab=repositories",
+    live_site_link: "https://blockify-kohl.vercel.app",
+    source_code_link: "https://blockify-kohl.vercel.app",
+
   },
   {
-    name: "Studio walling",
+    name: "Airstay",
     description:
-      "A responsive portfolio website that showcases the work of an architect and interior designer, highlighting their projects and services.",
+      "Hotel booking website built with ReactJs, TailwindCSS, Typescript, Express.js backend, MongoDB, and Firebase (for image storage).",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJs, TailwindCSS, Typescript, Express.js backend",
         color: "blue-text-gradient",
       },
       {
@@ -278,13 +287,14 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/just-Anup?tab=repositories",
+    live_site_link: "https://airstay.vercel.app",
+    source_code_link: "https://airstay.vercel.app",
 
   },
   {
-    name: "Digi pay",
+    name: "Estatery",
     description:
-      "A digital payment app that allows users to send and receive money instantly, pay bills, and manage their finances securely from their mobile devices.",
+      "Responsive real estate website using NextJS, TailwindCSS, Sanity.",
     tags: [
       {
         name: "react native",
@@ -295,17 +305,18 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/just-Anup?tab=repositories",
+    live_site_link: "https://estatery.vercel.app",
+    source_code_link: "https://estatery.vercel.app",
   },
   {
-    name: "pikalo",
+    name: "MovieSpace",
     description:
-      "A online movie booking app that allows users to book movie tickets, view showtimes, and explore nearby theaters with ease.",
+      "ReactJS website that fetches and displays movie data using IMDB API.",
     tags: [
       {
         name: "react native",
@@ -321,7 +332,102 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/just-Anup?tab=repositories",
+    live_site_link: "https://movie-space.netlify.app",
+    source_code_link: "https://movie-space.netlify.app",
+  },
+
+  {
+    name: "NextGen - Waitlist",
+    description:
+      "Responsive landing page built with NextJS, TailwindCSS, Framer Motion, with modern aesthetics.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project7,
+    live_site_link: "https://nextgen-nocode.vercel.app",
+    source_code_link: "https://nextgen-nocode.vercel.app",
+  },
+
+
+  {
+    name: "Task Manager",
+    description:
+      "CRUD application with Node.js, Express.js, MongoDB.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project8,
+    live_site_link: "https://task-list-ivory.vercel.app",
+    source_code_link: "https://task-list-ivory.vercel.app",
+  },
+
+
+  {
+    name: "NFT Preview Card Component",
+    description:
+      "UI component created with HTML and CSS.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project9,
+    live_site_link: "https://nft-preview-card-component-nickk.netlify.app",
+    source_code_link: "https://nft-preview-card-component-nickk.netlify.app",
+  },
+
+  {
+    name: "QR Code Component",
+    description:
+      "Stylish QR code UI built with HTML and CSS.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project10,
+    live_site_link: "https://qr-code-component-nickk.netlify.app",
+    source_code_link: "https://qr-code-component-nickk.netlify.app",
   },
 ] as const;
 
@@ -332,8 +438,8 @@ export const SOCIALS = [
     link: "",
   },
   {
-    name: "Linkedin",
-    icon: linkedin,
+    name: "Whatsapp",
+    icon: whatapp1,
     link: "https://www.linkedin.com/in/sanidhyy",
   },
   {
